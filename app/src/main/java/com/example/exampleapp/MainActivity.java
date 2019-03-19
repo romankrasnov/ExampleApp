@@ -1,9 +1,8 @@
 package com.example.exampleapp;
 
 
-import android.app.Dialog;
+
 import android.net.Uri;
-import android.os.Build;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -142,7 +141,6 @@ public class MainActivity extends AppCompatActivity {
         super.onResume();
 
         if (mExoPlayerView == null) {
-
             mExoPlayerView = (SimpleExoPlayerView) findViewById(R.id.exoplayer);
             initFullscreenDialog();
             initFullscreenButton();
